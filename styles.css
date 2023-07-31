@@ -1,15 +1,22 @@
+/* define a propriedade margin-top da classe .main para 100px. 
+Isso significa que o topo do elemento .main estará a 100px do topo da página. */
+
 .main {
-    margin-top: 100px;    
+    margin-top: 300px;    
 }
+/* essa parte do codigo define que o elemento .logo-img será exibido como um bloco
+terá 400px de largura, terá uma margem inferior de 25px e estará centralizado horizontalmente na página.*/
 
 .logo-img {
     display: block;
     width: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
 }
-
+/* .search-input será exibido como um bloco, terá 400px de largura */
+/* terá uma linha de altura de 24px, terá preenchimento de 10px na parte superior, inferior, esquerda e direita
+terá uma borda sólida de 1px com a cor #dfe1e5 e terá um raio de borda de 24px. */
 .search-input {
     display: block;
     width: 400px;
@@ -24,11 +31,16 @@
     border-radius: 24px;
 }
 
+/* o elemento .btn-wrapper será exibido como um contêiner flexível 
+e os filhos do elemento .btn-wrapper serão justificados no centro. */
 .btn-wrapper {
     display: flex;
     justify-content: center;
 }
 
+/* o elemento .btn terá uma margem de 4px à esquerda e à direita, 
+uma margem de 30px na parte superior, uma cor de fundo de #dfe1e5, nenhuma borda, 
+preenchimento de 8px na parte superior, inferior, esquerda e direita, um raio de borda de 4px e um tamanho de fonte de 14px. */
 .btn {
     margin-left: 4px;
     margin-right: 4px;
